@@ -2,7 +2,8 @@
 import { assets } from '@/Assets/assets'
 import axios from 'axios'
 import Image from 'next/image'
-import React, { useState } from 'react'
+import React from 'react'
+import { useState } from 'react'
 import { toast, ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css';
 
