@@ -6,7 +6,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React, { useEffect, useState } from 'react'
 
-const page = ({params}) => {
+const Page = ({params}) => {
     const {id}= React.use(params);
     const[data,setdata]=useState(null);
     const fetchblogdata=async()=>{
@@ -65,4 +65,4 @@ const page = ({params}) => {
   )
 }
 
-export default page
+export default Page

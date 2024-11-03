@@ -7,7 +7,7 @@ import { useState } from 'react'
 import { toast, ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css';
 
-const page = () => {
+const Page = () => {
   const [image,setimage]=useState(false);
   const[data,setdata]=useState({
     title:"",
@@ -80,4 +80,4 @@ if(response.data.success){
   )
 }
 
-export default page
+export default Page
