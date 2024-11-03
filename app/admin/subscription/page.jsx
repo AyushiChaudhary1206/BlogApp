@@ -8,7 +8,7 @@ const Page = () => {
   const[emails,setemails]=useState([]);
   const fetchemails=async()=>{
     const res=await axios.get('/api/email');
-
+console.log(res);
     setemails(res.data.emails);
   }
 const delemail=async(mongoid)=>{
