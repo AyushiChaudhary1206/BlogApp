@@ -1,8 +1,8 @@
 {
     "rewrites":[
         {"source":"/(.*)",
-        "destination":"/",
-    "methods":["GET","POST","PUT","DELETE"]
+        "destination":"/"
+    
     }
     ]
 }
